@@ -2,8 +2,7 @@
 REQUIRMENTS=   -The price of the item should be in float value
 	       -The discount is in int format
 	       -The total price after applying the discount needs to be returned in the  int format
-	       -Without using Scanner class
-		*/
+	       -Without using Scanner class*/
 class Store{
 	public static void main(String[]args)
 	{
@@ -42,6 +41,6 @@ class Store{
 
 	System.out.println("Discounted amount= "+total_price);
 	int total=(int)discounted_amount;
-}
+	}
 }
 
