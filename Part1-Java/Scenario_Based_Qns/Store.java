@@ -34,14 +34,13 @@ class Store
 
 		System.out.println("Total amount= "+total_amount);
 		System.out.println("*****************************");
-		System.out.println("");
 
 		float discounted_amount=total_amount-(total_amount*50/100);
 
 		int total_price=(int)discounted_amount;
 
 		System.out.println("Discounted amount= "+total_price);
-		int total=(int)discounted_amount;
+
 		}
 	}
 
