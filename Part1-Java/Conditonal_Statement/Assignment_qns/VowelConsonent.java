@@ -1,6 +1,6 @@
 import java.util.Scanner;
 // program to ch == 'a' || ch == 'e' || ch == 'i'
-public class Asg4 {
+public class VowelConsonent {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a character");

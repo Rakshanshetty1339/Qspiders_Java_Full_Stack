@@ -1,7 +1,7 @@
 import java.util.Scanner;
 //program to check whether a candidate is shortlisted or not for an interview
 //      -percentage >60%
-public class Asg5 {
+public class InterviewResult{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the percentage of candidate");

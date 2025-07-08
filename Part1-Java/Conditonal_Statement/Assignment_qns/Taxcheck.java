@@ -1,6 +1,6 @@
 import java.util.Scanner;
 // Progarm to check the person has to pay the income tax or not...
-public class Asg3 {
+public class Taxcheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the income of the person:");
