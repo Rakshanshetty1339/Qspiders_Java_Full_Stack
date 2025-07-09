@@ -7,7 +7,7 @@ public class MonthNumber {
         switch (num) {
             case 1:System.out.println("January");
                 break;
-            case 2:System.out.println("Feb");
+            case 2:System.out.println("Febraury");
                 break;
             case 3:System.out.println("March");
                 break;
