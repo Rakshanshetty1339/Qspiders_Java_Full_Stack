@@ -1,3 +1,7 @@
+/*Program to print the instructions to be followed based on the displayed colour in traffic signal
+    * Red- Stop and wait for few seconds
+    * Yellow- Please be ready to move
+    * Green- Thanks for waiting you can go now */
 import java.util.Scanner;
 public class Traffic_Signal {
     public static void main(String[] args) {
