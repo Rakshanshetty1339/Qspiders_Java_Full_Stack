@@ -7,13 +7,12 @@ class SumOfNumbersInRange {
         int end=s.nextInt();
         int sum=0;
         for(int i=start;i<=end;++i){
-            //In for loop the post and pre increments are same because 
-            //"It only matters when you use the result of the expression:"
+            //In for loop the post and pre increments are same.
+            //"It only matters when you use the result of the expression".
             //the increment happens after the loop body is executed and before the next iteration starts.
-            //so in looping Statements pre increment and post increments are same
+            //so in looping Statements pre increment and post increments are same.
             sum+=i;
         }
         System.out.println("Sum of the Range is: "+sum);
-    }
-    
+    }   
 }
