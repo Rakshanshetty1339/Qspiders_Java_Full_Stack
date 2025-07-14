@@ -5,6 +5,8 @@ class Atm {
         System.out.println("-------------------Welcome to JSP BANK--------------------");
         int pin=1234;
         double actbalace=42000;
+        int count=0;
+        while(count<=3){
         System.out.println("Enter the Pin:");
         int epin=s.nextInt();
 
@@ -117,7 +119,9 @@ class Atm {
             System.out.println("-------------INCURRENET PIN ENTERED-------");
             System.out.println("");
             System.out.println("*************************************************");
+            count++;
         }
+    }
     }
         
     }
