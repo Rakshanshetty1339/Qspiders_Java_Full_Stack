@@ -9,6 +9,11 @@ class Sum_of_N_numbers {
         for(int i=num1;i<=num2;i++){
             sum=sum+i;
         }
-        System.out.println("Sum of numbers from "+num1+" to "+num2+" is "+sum);
+        if(sum%2==0){
+            System.out.println("Sum of numbers from "+num1+" to "+num2+" is "+sum+" Even");
+        }
+        else{
+            System.out.println("Sum of numbers from "+num1+" to "+num2+" is "+sum+" Even");
+        }
     } 
 }
