@@ -7,9 +7,9 @@ class FactorOfNumber {
         int num=s.nextInt();
             System.out.print("Factors of Numbers are:");
         for(int i=1;i<=num;i++){
-            if(num%i==0){
+            if(num%i==0)//We can skip the "{}" when we have only one line in the if block of code
             System.out.print(" "+i+" ");    
-            }
+            
         }    
     }   
 }
