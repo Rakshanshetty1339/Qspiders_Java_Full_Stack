@@ -6,9 +6,13 @@ public static void main(String[] args) {
     System.out.println("Enter the start and end of Range");
     int num1=s.nextInt();
     int num2=s.nextInt();
-    num2=num1+num2;
-    num1=num2-num1;
-    num2=num2-num1;
+   // num2=num1+num2;
+   // num1=num2-num1;
+   // num2=num2-num1;
+   //----OR--------
+    num1=num1^num2;
+    num2=num1^num2;
+    num1=num1^num2;
     System.out.println(num1);
     System.out.println(num2);
     } 
