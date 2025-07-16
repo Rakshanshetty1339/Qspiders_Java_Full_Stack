@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class SumOfNumbersInRange {
+class Sum_Of_Number_In_Range {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter the start and end of Range" );

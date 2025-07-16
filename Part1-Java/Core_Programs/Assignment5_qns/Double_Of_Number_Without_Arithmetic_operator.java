@@ -1,6 +1,8 @@
+package Assignment5_qns;
+
 import java.util.Scanner;
 
-class DoubleOfNumber {
+class Double_Of_Number_Without_Arithmetic_operator {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter the number");

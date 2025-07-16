@@ -1,3 +1,5 @@
+package Assignment5_qns;
+
 //Write a Program to add two numbers without using arithmetic operator
 import java.util.Scanner;
 

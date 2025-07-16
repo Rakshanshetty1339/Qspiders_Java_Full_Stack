@@ -1,6 +1,7 @@
+package Assignment5_qns;
 import java.util.Scanner;
 
-class SumOfEvenNum {
+class Sum_Of_Even_Num_In_Range {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter the start and end of Range");
@@ -14,4 +15,4 @@ class SumOfEvenNum {
         }
         System.out.println("Sum of even numbers in the range is: "+sum);
     } 
-} 8iuhg
+} 

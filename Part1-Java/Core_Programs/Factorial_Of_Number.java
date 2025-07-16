@@ -1,6 +1,6 @@
 //Program to Print Factorial of a number
 import java.util.Scanner;
-class FactorialOfNumber {
+class Factorial_Of_Number {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter the start and end of Range");

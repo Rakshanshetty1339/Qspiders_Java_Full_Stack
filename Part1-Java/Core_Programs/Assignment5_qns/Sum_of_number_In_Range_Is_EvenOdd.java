@@ -1,5 +1,6 @@
+package Assignment5_qns;
 import java.util.Scanner;
-class Sum_of_N_numbers {
+class Sum_of_number_In_Range_Is_EvenOdd {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter the start and end of Range");
@@ -13,7 +14,7 @@ class Sum_of_N_numbers {
             System.out.println("Sum of numbers from "+num1+" to "+num2+" is "+sum+" Even");
         }
         else{
-            System.out.println("Sum of numbers from "+num1+" to "+num2+" is "+sum+" Even");
+            System.out.println("Sum of numbers from "+num1+" to "+num2+" is "+sum+" odd");
         }
     } 
 }

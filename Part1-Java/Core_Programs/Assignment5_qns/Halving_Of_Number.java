@@ -1,6 +1,8 @@
+package Assignment5_qns;
+
 import java.util.Scanner;
 
-class HalvingOfNumber  {
+class Halving_Of_Number  {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter the start and end of Range");

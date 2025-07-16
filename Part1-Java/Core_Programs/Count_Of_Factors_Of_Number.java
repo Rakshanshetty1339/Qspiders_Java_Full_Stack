@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
- class CountOfFactorsOfNumber {
+ class Count_Of_Factors_Of_Number {
      public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter the Number");

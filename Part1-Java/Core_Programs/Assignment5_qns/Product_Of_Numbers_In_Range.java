@@ -1,3 +1,5 @@
+package Assignment5_qns;
+
 import java.util.Scanner;
 
 class Product_Of_Numbers_In_Range {

@@ -1,6 +1,8 @@
+package Assignment5_qns;
+
 import java.util.Scanner;
 
-class SwapNumber {
+class Swap_Number_Without_Temp {
 public static void main(String[] args) {
     Scanner s=new Scanner(System.in);
     System.out.println("Enter the start and end of Range");
