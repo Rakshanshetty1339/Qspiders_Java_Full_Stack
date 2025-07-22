@@ -1,0 +1,29 @@
+*{
+     margin:0;
+     padding:0;
+}
+.container{
+    height: 40vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:60px;
+    flex-direction: row-reverse;
+}
+.box{
+    background-color: blue;
+    height:100px;
+    width:100px;
+    color:white;
+    text-align:center;
+    align-content:center;
+}
+.box1{
+    /* background-color: red; */
+    align-self: flex-start;
+ 
+}
+.box3{
+    align-self: flex-end;
+}
