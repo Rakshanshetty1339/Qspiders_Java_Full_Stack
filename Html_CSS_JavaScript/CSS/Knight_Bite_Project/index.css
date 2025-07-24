@@ -1,31 +1,27 @@
 
-*{
-    margin: 0;
-    padding: 0;
-}
-.app-container{
-    background-image: url(./images/app-link-background.svg);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;  
-}
-img{
-    width: 200px;
-    height: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-.nav{
-    background: rgba(0, 0, 0, 0.12);
-    display: flex;
-}
-.logo{
-     font-family:"Nunito";
-     color: white;
-}
-.navbar{
-    display: flex;
-}
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .app-container{
+        background-image: url(./images/app-link-background.svg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;  
+    }
+    img{
+        width: 200px;
+        height: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .nav{
+        background: rgba(0, 0, 0, 0.12); 
+    }
+    .logo{
+        font-family:"Nunito";
+        color: white;
+    }
 
-.link-nav{
-}
+
+

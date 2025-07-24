@@ -1,4 +1,4 @@
-*{
+/**{
      margin:0;
      padding:0;
 }
@@ -20,10 +20,11 @@
     align-content:center;
 }
 .box1{
-    /* background-color: red; */
+    /* background-color: red; 
     align-self: flex-start;
  
 }
 .box3{
     align-self: flex-end;
 }
+*/
