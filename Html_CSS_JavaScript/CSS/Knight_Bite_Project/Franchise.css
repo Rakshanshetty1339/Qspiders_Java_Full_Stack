@@ -1,0 +1,193 @@
+
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+ /*******   START NAV BAR  *******/
+
+    .logo img{
+        width: 250px;
+        height: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .nav{
+        background: rgba(0, 0, 0, 0.342); 
+        display: flex;
+        position: fixed;
+       justify-content:space-between;
+        align-items: center;
+        letter-spacing: 3px;
+        width:100vw;
+    }
+
+    .logo{
+        font-family:"Nunito";
+        color: white;
+    }
+    .link-nav{
+        display: flex;
+        gap: 50px;
+        margin-right: 60px;
+    }
+
+    .link-nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        transition:color 1s;
+
+    }
+    .link-nav a:hover{
+        color: rgb(181, 120, 238);
+    }
+
+    .link-nav li{
+        list-style: none;
+    }
+
+    /*******   END NAV BAR  *******/
+
+
+
+
+    /*** BACKGROUND DIV*/
+
+.franchise-bg{
+    width: 100%;
+    height: 110vh;
+}
+
+
+/** BACKGROUND END*/
+
+.mission{
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#video{
+    width: 100%;
+}
+
+.mission-vision{
+    padding: 50px;
+}
+
+.mission-vision h1{
+    padding: 40px;
+}
+
+.text{
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.apply{
+    margin-top: 50px;
+    
+}
+.apply-menu{
+    
+}
+.apply-img{
+    background: url(./images/apply-grid.png);
+    width: 100%;
+    height:520px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.apply-menu button{
+    background-color:#FF5672;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 50PX;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+h1{
+    font-family:monospace;
+    text-align: center;
+    font-size: 30px;
+}
+.items{
+    width: 300px;
+    text-align: center;
+    font-family:monospace;
+    margin-top: 50px;
+}
+
+.Benefits-container{
+    margin-top: 50px;
+}
+.container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.franchise1{
+    display: flex; 
+    align-items: center;
+    gap:10px ;
+}
+.Franchise-query{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.query img{
+    width: 50px;
+}
+
+.franchise-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.divider{
+    background-color: rgb(144, 72, 211);
+    height: 3px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+
+}
+.franchise-container h1{
+    font-size: 30px;
+    
+}
+
+
+
+
+
+/** Main FOOTER    linear-gradient(90deg, #C77BF4 0%, #FF5672 100%)*/
+
+    .footer{
+        background-color: palevioletred;
+        text-align: center;
+        color:white;
+        padding: 15px;
+        font-family: "Nunito";
+        background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+        box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+    }

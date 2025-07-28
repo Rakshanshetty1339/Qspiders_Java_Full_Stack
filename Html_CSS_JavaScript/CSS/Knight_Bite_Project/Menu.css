@@ -1,0 +1,99 @@
+ 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+ 
+ 
+ 
+ /*******   START NAV BAR  *******/
+
+    .logo img{
+        width: 250px;
+        height: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .nav{
+        background: rgba(0, 0, 0, 0.342); 
+        display: flex;
+        position: fixed;
+       justify-content:space-between;
+        align-items: center;
+        letter-spacing: 3px;
+        width:100vw;
+    }
+
+    .logo{
+        font-family:"Nunito";
+        color: white;
+    }
+    .link-nav{
+        display: flex;
+        gap: 50px;
+        margin-right: 60px;
+    }
+
+    .link-nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        transition:color 1s;
+
+    }
+    .link-nav a:hover{
+        color: rgb(132, 0, 255);
+
+    }
+
+    .link-nav li{
+        list-style: none;
+    }
+
+    /*******   END NAV BAR  *******/
+
+    .Menu{
+        
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        padding: 130px;
+        width: 80vw;
+        margin: auto;  
+    }
+    
+    .menu-bg{
+        background: url(./images/banner.webp);
+        background-repeat: no-repeat;
+        height: 110vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .menu-items img{
+        height: 140px;
+    }
+
+    .menu-items h1{
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .menu-items{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;  
+    }
+
+    /** Main FOOTER    linear-gradient(90deg, #C77BF4 0%, #FF5672 100%)*/
+
+    .footer{
+        background-color: palevioletred;
+        text-align: center;
+        color:white;
+        padding: 15px;
+        font-family: "Nunito";
+        background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+        box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+    }
