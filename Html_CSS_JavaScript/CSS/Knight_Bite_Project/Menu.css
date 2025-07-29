@@ -56,34 +56,44 @@
         
         display: grid;
         grid-template-columns: auto auto auto;
-        align-items: center;
-        padding: 130px;
-        width: 80vw;
-        margin: auto;  
+        padding: 150px 220px 0px;
+        width: 70vw;
+        row-gap: 20px;
+        column-gap: 50px;   
     }
     
     .menu-bg{
         background: url(./images/banner.webp);
         background-repeat: no-repeat;
-        height: 110vh;
+        height: 100vh;
         width: 100%;
         background-size: cover;
     }
 
     .menu-items img{
-        height: 140px;
+        height: 100px;
     }
 
     .menu-items h1{
         color: white;
         text-transform: uppercase;
+        font-family:cursive;
+        font-weight:bold;
     }
     
     .menu-items{
         display: flex;
         align-items: center;
-        text-align: center;
-        flex-direction: column;  
+        flex-direction: column;
+        justify-content: space-evenly;
+        cursor: pointer;  
+        transition: 0.5s;
+
+    }
+
+    .menu-items:hover{
+        transform: scale(1.1);
+        filter: brightness(70%);
     }
 
     /** Main FOOTER    linear-gradient(90deg, #C77BF4 0%, #FF5672 100%)*/

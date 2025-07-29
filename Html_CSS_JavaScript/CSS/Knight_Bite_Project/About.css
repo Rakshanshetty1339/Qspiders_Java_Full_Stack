@@ -49,6 +49,45 @@
 
     /*******   END NAV BAR  *******/
 
+    /**** contents starts****/
+
+
+
+    .banner{
+        background: url(./images/banner_about);
+        width: 100%;
+        height: 100vh;
+        
+    }
+
+    .banner h1{
+        color: white;
+        width: 30vw;
+        padding-top: 20vh;
+        margin-left: 5vw;
+        font-family: cursive;
+        font-size:47px;
+    }
+
+
+    .about-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        font-size: 21px;
+        padding: 100px 100px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: ;
+
+    }
+
+    .about-grid img{
+        width: 30vw;
+
+    }
+
+
+
+
 
 
 
