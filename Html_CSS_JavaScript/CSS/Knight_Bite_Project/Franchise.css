@@ -56,10 +56,10 @@
     /*** BACKGROUND DIV*/
 
 .franchise-bg{
-    
     height: 110vh;
     text-align: center;
     align-content: center;
+    font-size: 35px;
     text-transform: uppercase;
     line-height: 50px;
 }
@@ -73,10 +73,40 @@
     position:relative;
     font-weight: 700;
     font-family: cursive;
-    font-size: 45px;
-    top: -70vh;
-    left: 50px;
+    font-size: 45zyyyyypx;
+    top: -80vh;
 }
+
+.franchise-text2{
+    color: rgb(255, 255, 255);
+    position:relative;
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 25px;
+    top: -80vh;
+    line-height: 80px;
+}
+
+
+.btn1{
+    color: rgb(255, 255, 255);
+    position:relative;
+    background-color: #FF5672;
+    width: 200px;
+    font-size: 25px;
+    top: -80vh;
+    border: none;
+    padding: 12px;
+    width: 250px;
+    border-radius: 50px;
+    
+}
+
+/* .franchise-bck{
+        background: rgb(0 0 0 / 25%);
+        width: 100%;
+        height:120vh ;
+} */
 .mission{
     text-align: center;
     font-family: monospace;
@@ -92,10 +122,13 @@
 .mission-vision{
     padding: 50px;
     margin-top: 60px;
+     color: #424242;
 }
 
 .mission-vision h1{
     padding: 40px;
+    text-align: center;
+    color: #424242;
 }
 
 .text{
@@ -106,6 +139,8 @@
 
 .apply{
     margin-top: 50px;
+     color: #424242;
+     text-align: center;
     
 }
 .apply-menu{
@@ -144,22 +179,27 @@
 }
 
 
-
-
-h1{
-    font-family:monospace;
-    text-align: center;
-    font-size: 30px;
+.items p{
+    font-size: 15px;
+    padding-top: 20px;
 }
+
+.items h2{
+    padding-top: 20px;
+}
+
 .items{
     width: 300px;
     text-align: center;
     font-family:monospace;
     margin-top: 50px;
+     color: #424242;
 }
 
 .Benefits-container{
     margin-top: 50px;
+    color: #424242;
+    text-align: center;
 }
 .container{
     display:grid;
@@ -174,6 +214,7 @@ h1{
     display: flex; 
     align-items: center;
     gap:10px ;
+     color: #424242;
 }
 .Franchise-query{
     display: grid;
@@ -190,6 +231,8 @@ h1{
 .franchise-container{
     margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
+     color: #424242;
     
 }
 
