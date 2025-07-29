@@ -45,6 +45,33 @@ button{
     margin-top: 10px;
 }
 
+.btn1{
+    background-color: blueviolet;
+}
+.containerposition{
+    height: 500px;
+    width:500px;
+    margin: auto;
+    background-color: yellow;
+    position:relative;
+}
+.boxposition{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: auto;
+    align-content: center;
+    position:fixed;
+    top:100px;
+    
+}
+.button2{
+    position: relative;
+    top:30px;
+    left:400px;
+}
+
+
 button:hover{
 
     background-color: rgb(2, 2, 71);
@@ -60,3 +87,172 @@ button:hover{
 
 }
 
+.button5{
+    position: sticky;
+    top:0px;
+    left:50px
+}
+.button3{
+    position: absolute;
+    top:20px;
+    left: 100px;
+}
+.button4{
+    position: fixed;
+    top:50px;
+    right:50px;
+}
+
+.box1{
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    width:120px;
+    height:120px;
+    background-color: red;
+    animation: box1 1s infinite alternate;
+}
+
+.box2{
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    width:120px;
+    height:120px;
+    background-color: red;
+    animation: box2 1s infinite alternate linear ;
+}
+
+
+.box3{
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    width:120px;
+    height:120px;
+    background-color: red;
+    animation: box3 1s infinite alternate ease-in ;
+}
+
+
+.box4{
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    width:120px;
+    height:120px;
+    background-color: red;
+    animation: box4 1s infinite alternate ease-out ;
+}
+
+.box5{
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    width:120px;
+    height:120px;
+    background-color: red;
+    animation: box5 2s infinite alternate;
+}
+
+.box6{
+    align-content: center;
+    border-radius: 100px;
+    text-align: center;
+    border-block: 10px solid red;
+    border-inline:  10px solid blue;
+    font-size: 20px;
+    width:120px;
+    height:120px;
+    animation: box6 0.8s infinite linear;
+    margin-left: 45vw;
+}
+
+
+@keyframes box1 {
+    from{
+        background-color: aqua;
+        transform: translate(0px);
+    }
+    to{
+        background-color: blueviolet;
+        transform: translate(400px);
+    }
+
+}
+
+@keyframes box2 {
+    from{
+        background-color: aqua;
+        transform: translate(0px);
+    }
+    to{
+        background-color: blueviolet;
+        transform: translate(400px);
+    }
+
+}
+
+@keyframes box3 {
+    from{
+        background-color: aqua;
+        transform: translate(0px);
+    }
+    to{
+        background-color: blueviolet;
+        transform: translate(400px);
+    }
+
+}
+
+@keyframes box4 {
+    from{
+        background-color: aqua;
+        transform: translate(0px);
+    }
+    to{
+        background-color: blueviolet;
+        transform: translate(400px);
+    }
+
+}
+
+
+@keyframes box5 {
+    0%{
+        background-color: aqua;
+        transform: rotate(90deg);
+        
+    }
+
+    50%{
+        background-color: burlywood;
+        transform: rotate(90deg);
+        
+    }
+
+    100%{
+        background-color: aquamarine;
+        transform: translate(400px);
+    }
+
+}
+
+
+@keyframes box6 {
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        transform: rotate(360deg);   
+    }
+
+}
+
+h3{
+    position: relative;
+    top: -100px;
+    left:47vw;
+
+}

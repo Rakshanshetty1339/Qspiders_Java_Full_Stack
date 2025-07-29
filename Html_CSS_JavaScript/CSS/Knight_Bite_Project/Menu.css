@@ -63,6 +63,7 @@
     }
     
     .menu-bg{
+        z-index: 1;
         background: url(./images/banner.webp);
         background-repeat: no-repeat;
         height: 100vh;
@@ -82,6 +83,7 @@
     }
     
     .menu-items{
+        z-index: 2;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -93,7 +95,7 @@
 
     .menu-items:hover{
         transform: scale(1.1);
-        filter: brightness(70%);
+        filter: brightness(60%);
     }
 
     /** Main FOOTER    linear-gradient(90deg, #C77BF4 0%, #FF5672 100%)*/

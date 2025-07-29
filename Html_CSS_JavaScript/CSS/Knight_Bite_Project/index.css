@@ -287,6 +287,16 @@
         display: flex;
     }
 
+
+    .media{
+        transition:all 0.8s;
+    }
+
+
+    .media:hover{
+        transform: scale(1.2);
+    }
+
     .links-list{
         margin-left: 25px;
     }
