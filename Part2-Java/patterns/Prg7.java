@@ -1,0 +1,55 @@
+class Prg7
+{
+	public static void main(String[] args) 
+	{
+		for (int r=1;r<=5;r++)
+		{
+			for(int c=1;c<=5;c++)
+			{
+				if(r==1 || c==3 || (r==5 && c<=3))
+				{
+					System.out.print("* ");
+				}
+				else
+					System.out.print("  ");
+			}
+			for(int c=1;c<=9;c++)
+			{
+				if(r+c==6 || c-r==4 || (r==3 &&(c>=3 && c<=7)))
+				{
+					System.out.print("* "); 
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			
+		//int f=1;
+		//int d=9;
+			for(int c=1;c<=9;c++)
+			{
+				if(r==c || r+c==10)
+				System.out.print("*"+" ");
+				else
+				System.out.print("  ");
+			}
+			
+			for(int c=1;c<=9;c++)
+			{
+				if(r+c==6 || c-r==4 || (r==3 && (c>=3 && c<=7)))
+				{
+					System.out.print("* "); 
+				}
+				else
+				{
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+			//f++;
+			//d--;
+		}
+	}
+		
+	}
