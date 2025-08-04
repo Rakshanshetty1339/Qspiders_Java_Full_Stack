@@ -1,0 +1,46 @@
+// Design a class of employee with 1 static behaviour and  1 non-static behaviour access with the help of object.(static behaviour name employee company details , non static behaviour employye details)
+class  Employee
+{
+	public static void companydetails(){
+		int cid=2025;
+		String cname="infotech";
+		String cloc="Bangalore";
+		int numemp=1250;
+		System.out.println("-------------Company Details--------------");
+		System.out.println("");
+		System.out.println("Company Name:"+cname);
+		System.out.println("Company ID:"+cid);
+		System.out.println("Number of Employees:"+numemp);
+		System.out.println("Company Location:"+cloc);
+		
+		
+		
+	}
+	
+	public  void employeedetails(){
+		int eid=202501;
+		String ename="Rakshan";
+		String edept="Development";
+		int age=42;
+		int sal=50000;
+		System.out.println("-------------Employee Details--------------");
+		System.out.println("");
+		System.out.println("Employee Name:"+ename);
+		System.out.println("Employee ID:"+eid);
+		System.out.println("Age:"+age);
+		System.out.println("Montly Salary:"+sal);
+		System.out.println("Employee Department:"+edept);
+		
+		
+		
+	}
+		
+	public static void main(String[] args) 
+	{
+		companydetails();
+		Employee obj=new Employee();
+		System.out.println("");
+		obj.employeedetails();
+		
+	}
+}

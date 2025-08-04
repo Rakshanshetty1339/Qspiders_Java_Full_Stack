@@ -387,6 +387,31 @@
         transform: scale(1.1);
      }
 
+     .index-footer{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        padding: 30px;
+     }
+
+
+     .index-footer-img1{
+        background: url(./images/brand_logo-1_footer.svg);
+        width:130px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+     }
+
+     .index-footer-img2{
+        background: url(./images/kb_footer.png);
+        width:50px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+
     /** Main FOOTER    linear-gradient(90deg, #C77BF4 0%, #FF5672 100%)*/
 
     .footer{

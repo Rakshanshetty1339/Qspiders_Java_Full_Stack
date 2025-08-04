@@ -1,0 +1,24 @@
+.inner h1{
+    font-size: 3rem;
+    text-align: center;
+    color: orange;
+    margin-bottom: 3rem;
+}
+
+
+.inner>h1{
+    font-size:3rem;
+    text-align: center;
+    color: blue;
+}
+
+.container+h1{
+    background-color: red;
+    text-align: center;
+}
+
+.container~h1{
+    background-color: red;
+    text-align: center;
+}
+
