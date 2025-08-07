@@ -15,8 +15,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(107, 99, 99, 0.662);
-    padding: 20px 20px;
+    background-color: rgba(70, 62, 62, 0.336);
+    padding: 0px 40px;
 }
 
 nav .logo{
@@ -38,10 +38,115 @@ nav .nav-links a{
     text-decoration: none;
 }
 
+.header-content a{
+    text-decoration: none;
+    background-color: hotpink;
+    padding:15px 25px;
+    border-radius: .6rem;
+    color: white;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: white;
+     gap:1.5rem;
+     /* margin-top: 2rem;*/
+    height: 70vh;
+}
+.header-content h1{
+    font-size:3.5rem;
+}
+.playstore img{
+    transition: all .5s ease-in-out;
+}
+.playstore img:hover{
+    transform: scale(.9);
+}
+img[alt="ios-store"]{
+    height: 2.5rem;
+}
+.playstore{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+
+.features h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+}
+.features{
+    padding: 2.5rem;
+    min-height: 90vh;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap:1rem;
+    min-height: 50vh;
+}
+.inner img{
+    width:7rem;
+    margin-bottom: 2rem;;
+}
+.inner div{
+    padding: 1.5rem;
+    font-size: 24px;
+}
+
+.banner2{
+    background: url(./images/banner-1.webp) no-repeat center/cover;
+    min-height: 150vh;
+    align-content: center;
+}
+.banner2 h1{
+    color: white;
+    font-size: 5.5rem;
+    text-align: center;
+}
+.banner3{
+    background: url(./images/banner-2.webp)no-repeat center/cover;
+    height: 130vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner3 h1{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 10vh;
+    
+}
+.banner3 div{
+
+    margin: 10vh auto;
+}
+.banner3 a{
+    text-decoration: none;
+    color: white;
+    border:1px solid white;
+    padding:.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 35px;
+}
+
+
+
+    
+
 
 @media(max-width:576px){
     header{
-        background-size:cover;
+        height: 100vh;
+
     }
     nav{
     display: flex;
@@ -53,5 +158,72 @@ nav .logo{
     width: 60%;
     margin: auto;
 }
+.nav-links{
+    gap: 1.3rem;
+}
+
+ .header-content h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+ .header-content{
+        margin-top: 10vh;
+        gap:2rem;
+    }
+.playstore{
+    gap:1rem;
+}
+img[alt="ios-store"]{
+    height: 2rem;
+}
+
+img[alt="android-store"]{
+    height: 2.5rem;
+}
+
+.inner{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+}
+
+.inner img{
+    width: 4rem;
+    margin-bottom: 1rem;;
+}
+.inner div{
+    padding: 0.5rem;
+}
+
+.features h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem 0rem;
+}
+
+
+
+.banner2 h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.banner2{
+    min-height: 120vh;
+    background-position-x: 35%;
+
+}
+
+.banner3 h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 0.5rem;
+    margin-bottom: 10vh;
+    
+    
+}
+
 
 }
