@@ -190,3 +190,26 @@
         background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
         box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
     }
+
+
+
+    /** Media Query Starts*/
+    @media(max-width:576px) {
+
+        .link-nav{
+            padding-right: 0px;
+            gap: 20px;
+            padding-block: 10px;
+        }
+
+        .nav{
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .logo{
+            transform: scale(2);
+            height: 50px;
+        }
+    }
