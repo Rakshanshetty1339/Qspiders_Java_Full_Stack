@@ -1,0 +1,16 @@
+import java.util.*;
+class SmallestElementinArray 
+{
+	
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		int arr[]={10,50,45,8,15};
+		int small=Integer.MAX_VALUE;
+		for(int i=0;i<=arr.length-1;i++){
+			if(arr[i]<=small)
+				small=arr[i];
+		}
+		System.out.println(small);
+	}
+}

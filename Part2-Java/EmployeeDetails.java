@@ -1,0 +1,41 @@
+class  EmployeeDetails
+{
+	static String CmpName="SAP";
+	int EmpId=1339;
+	String name="Rakshan";
+	double Sal=50000;
+	
+	EmployeeDetails(String name,int EmpId, double Sal){
+		this.name=name;
+		this.EmpId=EmpId;
+		this.Sal=Sal;
+	}
+	
+	public static void main(String[] args) 
+	{
+		System.out.println("Employee Details ");
+		EmployeeDetails emp1=new EmployeeDetails("Ganesh",2026,20000.00);
+		System.out.println("Employee Name: "+emp1.name+"\nCompany Name:"+CmpName+"\nEmployee ID: "+emp1.EmpId+"\nSalary:"+emp1.Sal);
+		System.out.println();
+		
+		
+		EmployeeDetails emp2=new EmployeeDetails("Rishi",7826,60000.00);
+		System.out.println("Employee Name: "+emp2.name+"\nCompany Name:"+CmpName+"\nEmployee ID: "+emp2.EmpId+"\nSalary:"+emp2.Sal);
+		System.out.println();
+		
+		EmployeeDetails emp3=new EmployeeDetails("Prajwal",48782,90000.00);
+		System.out.println("Employee Name: "+emp3.name+"\nCompany Name:"+CmpName+"\nEmployee ID: "+emp3.EmpId+"\nSalary:"+emp3.Sal);
+		System.out.println();
+		
+		EmployeeDetails emp4=new EmployeeDetails("Prakash",4526,20000.00);
+		System.out.println("Employee Name: "+emp4.name+"\nCompany Name:"+CmpName+"\nEmployee ID: "+emp4.EmpId+"\nSalary:"+emp4.Sal);
+		System.out.println();
+		
+		EmployeeDetails emp5=new EmployeeDetails("ShivaPradha",7826,50000.00);
+		System.out.println("Employee Name: "+emp5.name+"\nCompany Name:"+CmpName+"\nEmployee ID: "+emp5.EmpId+"\nSalary:"+emp5.Sal);
+		System.out.println();
+		
+		
+		
+	}
+}
