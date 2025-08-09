@@ -8,18 +8,18 @@
 
  /*******   START NAV BAR  *******/
 
+        
+       
+       
 
     .nav{
         display: flex;
         position: fixed;
-        justify-content: space-between;
-        padding-inline: 2vw;
+        justify-content:space-between;
         align-items: center;
         letter-spacing: 3px;
         width: 100%;
         z-index: 10;
-        height: max-content;
-        padding-block: 15px;
         background: rgba(63, 63, 63, 0.555);
         backdrop-filter: blur(6px);
     }
@@ -326,6 +326,7 @@
         .nav{
             display: flex;
             flex-direction: column;
+            padding-bottom: 10px;
             
         }
 
@@ -385,6 +386,10 @@
         .query{
                 transform: scale(0.8);
             }
+        .footer{
+            font-size: 14px;
+        }
+
 
         
         
