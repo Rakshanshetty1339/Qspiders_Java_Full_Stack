@@ -88,6 +88,35 @@
 
     }
 
+    /* .grid-items:nth-child(1){
+        order: 2;
+    }
+     .grid-items:nth-child(2){
+        order: 1;
+    }
+     .grid-items:nth-child(2){
+        order: 3;
+    }
+     .grid-items:nth-child(4){
+        order: 4;
+    }
+     .grid-items:nth-child(5){
+        order: 5;
+    }
+     .grid-items:nth-child(6){
+        order: 6;
+    }
+    .grid-location-items:nth-child(7){
+        order: 6;
+    }
+    .grid-social-media:nth-child(8){
+        order: 6;
+    }
+     */
+
+
+
+
     .grid-items{
         align-content: center;
     }
