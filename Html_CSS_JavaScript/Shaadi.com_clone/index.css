@@ -1,0 +1,64 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.nav{
+    width: 100px;
+}
+.main-header{
+    background: url(images/home-banner-ri.webp);
+    width: 100%;
+    height: 100vh; 
+}
+.nav-main{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-block: 40px;
+    color: white;
+    column-gap: 40vw;
+}
+
+.login{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    
+}
+
+.main-bg-text{
+    padding-top: 40vh;
+}
+
+.main-bg-text p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-block: 10px ;
+}
+
+.main-bg-text h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size:45px;
+    color: white;
+}
+
+.basic-details{
+    margin-inline: 15vw;
+    background-color: rgba(0, 0, 0, 0.414);
+    height: fit-content;
+}
+
+#input1{
+    padding: 5px;
+    width: 10rem;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.input1{
+    color: white;
+}
