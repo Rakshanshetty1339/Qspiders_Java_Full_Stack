@@ -3,9 +3,11 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Raleway', sans-serif !important;
     }
 .nav{
     width: 100px;
+    cursor: pointer;
 }
 .main-header{
     background: url(images/home-banner-ri.webp);
@@ -25,6 +27,7 @@
     display: flex;
     column-gap: 40px;
     align-items: center;
+    cursor: pointer;
     
 }
 
@@ -39,7 +42,7 @@
     padding-block: 10px ;
 }
 
-.main-bg-text h1{
+.main-bg-text h1{   
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size:45px;
@@ -47,18 +50,453 @@
 }
 
 .basic-details{
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    gap: 2rem;
     margin-inline: 15vw;
     background-color: rgba(0, 0, 0, 0.414);
     height: fit-content;
 }
-
 #input1{
-    padding: 5px;
-    width: 10rem;
-    border-radius: 5px;
-    height: 40px;
+    font-size: 17px;
+    margin-block: 1rem;;
+    color: #72727d;
+    text-align: center;
+    border-radius:5px;
+    width:10rem;
+    height: 2.5rem; 
+    border: none;
+    cursor: pointer;
+
 }
 
-.input1{
+#age{
+    font-size: 17px;
+    color: #72727d;
+    margin-block: 1rem;
+    border-radius:5px;;
+    text-align: center;
+    width:5rem;
+    border: none;
+    height: 2.5rem;   
+    cursor: pointer;
+
+}
+
+#age2{
+    font-size: 17px;
+    color: #72727d;
+    border-radius:5px;
+    text-align: center;
+    border: none;
+    width:5rem;
+    height: 2.5rem; 
+    margin-top: 2.3rem;
+    cursor: pointer;
+ 
+}
+
+#text{
+    margin-top: 2.8rem;
+
+}
+
+#religion{
+    font-size: 17px;
+    color: #72727d;
+    border-radius:5px;
+    border: none;
+    margin-block: 1rem;
+    text-align: center;
+    width:10rem;
+    height: 2.5rem; 
+    cursor: pointer;
+
+}
+
+#mothertongue{
+    color: #72727d;
+    border-radius:5px;
+    font-size: 17px;
+    margin-block: 1rem;
+    text-align: center;
+    border: none;
+    width:10rem;
+    height: 2.5rem; 
+    cursor: pointer;
+
+
+}
+
+
+#btn{
+    border-radius:5px;
+    background-color:#00bcd5;
+    border: none;
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 17px;
+    text-align: center;
+    width:10rem;
+    height: 2.5rem; 
+    margin-top: 2.3rem;
+    cursor: pointer;
+ 
+}
+
+#btn:hover{
+    background-color: #027686;
+    transition: 1s;
+}
+
+.findspl{
+    margin-block: 3rem;
+}
+
+.findspl h1{
+    text-align: center;
+    color: #ff5a60;
+    padding-block: 2rem;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.findspl-info{
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+
+}
+
+
+.info a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #00bcd5;
+}
+
+.info a:hover{
+    text-decoration: underline;
+}
+
+.info p{
+    color:#72727d;
+    padding-block: 15px;  
+}
+
+
+.happystories{
+     background-color: #eee;
+
+}
+.happystories h1{
+    text-align: center;
+    color: #ff5a60;
+    padding-block: 2rem;
+    font-weight:100;
+
+}
+
+.getstarted{
+    display: flex;
+    background-color: #ff5a60;
+    height: 3rem;
     color: white;
+    font-weight: 100;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.getstarted h1{
+    font-weight: 100;
+}
+
+#startbtn{
+    font-size: 18px;
+    height: 3rem;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: #ff5a60;
+    color: white;
+    border: solid white 2px;
+}
+
+#startbtn:hover{
+    background-color:white;
+    color:#00bcd5;
+    transition: 1s;
+}
+
+.bestmatch h1{
+    font-weight: 100;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif !important;
+    color:#ff5a60 ;
+    text-align: center;
+    padding-block: 4rem;
+}
+
+
+.bestmatchinfo{
+    width: 20rem;
+    text-align: center;
+}
+
+.bestmatchinfo hr{
+    color: #72727d;
+    filter: brightness(140%);
+    
+}
+
+.bestmatchinfo h2{
+    color:#72727d;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 15px;
+    font-weight: bold;
+    padding-block: 10px;
+}
+
+.bestmatchinfo p{
+     color: #72727d;
+     font-family: 'Raleway', sans-serif !important;
+     padding-block: 20px;
+     font-size: 15px;
+     word-spacing: 1px;
+     line-height: 1.8;
+}
+
+.bestmatchinfo a{
+    text-decoration: none;
+    color: #337ab7;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bestmatchinfo a:hover{
+    text-decoration: underline;
+
+}
+
+
+.find-best-match{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.downloadapp{
+    display: flex;
+    background-color: #ebeaea;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.downloadapp img{
+    height: 2.5rem;
+}
+
+.downloadapp h2{
+    font-weight: 100;
+    font-size: 25px;
+    color:#ff5a60;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.App-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:15rem;
+    gap: 4rem;
+    word-spacing: 2px;
+}
+
+.popular-Apps h2 {
+    font-weight: 100;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif !important;
+    color:#ff5a60 ;
+    text-align: center;
+    padding-block: 2rem;
+}
+
+.apps{
+    width: 19rem;
+}
+
+.apps p{
+     color: #72727d;
+     font-family: 'Raleway', sans-serif !important;
+     padding-block: 20px;
+     font-size: 15px;
+     word-spacing: 1px;
+     line-height: 1.8;
+}
+
+.apps h3{
+    color:#72727d;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 15px;
+    font-weight: bold;
+    padding-block: 10px;
+}
+
+.apps a{
+    text-decoration: none;
+    color: #337ab7;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.apps a:hover{
+    text-decoration: underline;
+
+}
+
+.apps hr{
+    color: #72727d;
+    filter: brightness(140%);
+}
+
+
+.aboutshaadi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-inline: 15rem;
+    line-height: 1.5;
+}
+
+.aboutshaadi img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+}
+#about-info {
+    color: #72727d;
+    padding-block: 3rem;
+}
+
+#anchor{
+    color: #00bcd5;
+    text-decoration: none;
+}
+
+#anchor:hover{
+    text-decoration: underline;
+}
+
+#country {
+    color: #72727d;
+    
+}
+
+#country a{
+    color:#00bcd5;
+    text-decoration: none;
+}
+
+#country a:hover{
+    text-decoration: underline;
+}
+
+.aboutbox{
+    background-color: #00bcd5;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    width: 15rem;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-top: 3rem;
+}
+
+.aboutsecurity hr{
+    color: #000000;
+    width: 45rem;
+    filter: brightness(140%);
+}
+
+.sec-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 5rem;
+    color: #72727d;
+    font-size: 18px;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 13px;
+    color: #72727d;
+    padding-block: 5rem;
+    text-align: center;
+}
+
+.footer{
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer hr{
+    color: #72727d;
+    filter: brightness(120%);
+    margin-block:1rem;
+    width: 10rem;
+}
+
+.footer a{
+    margin-top:10px;
+    text-decoration: none;
+    color:#72727d;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+   
+
+
+.main-footer{
+    
+    background-color: #dedee4;
+    height: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-inline:15rem;
+    color: #72727d;
+    font-size: 12px;
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: #00bcd5;
 }

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(33, 5, 60);
+}
+
+.container{
+    background-color: rgb(107, 115, 115);
+    padding: 20PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15rem;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    
+}
+
+.calci{
+    padding: 20px;
+  
+}
+
+#screen{
+    width: 100%;
+    border-radius:8px;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+   
+    
+}
+
+
+
+
+.btns button{
+    font-size: 17px;
+    background-color: rgb(177, 163, 163);
+    border-radius: 5px;
+    border-color:rgb(177, 163, 163);
+    width: 4rem;
+    height: 4rem;
+
+}
