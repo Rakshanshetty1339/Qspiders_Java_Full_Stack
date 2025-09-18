@@ -1,0 +1,2 @@
+what is babel in reactor uses?
+Its is covert jsx code to
