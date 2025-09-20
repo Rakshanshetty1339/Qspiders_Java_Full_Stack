@@ -103,15 +103,7 @@ button:hover{
     right:50px;
 }
 
-.box1{
-    align-content: center;
-    text-align: center;
-    font-size: 20px;
-    width:120px;
-    height:120px;
-    background-color: red;
-    animation: box1 1s infinite alternate;
-}
+
 
 .box2{
     align-content: center;
@@ -166,6 +158,17 @@ button:hover{
     height:120px;
     animation: box6 0.8s infinite linear;
     margin-left: 45vw;
+}
+
+
+.box1{
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    width:120px;
+    height:120px;
+    background-color: red;
+    animation: box1 1s ;
 }
 
 
